@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Converter</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="mark.html">Weather Converter</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mark.html">Mark To Grade</a></li>
+                <li><a href="staff.html">Staff Page</a></li>
+                <li><a href="weather.html">Weather Page</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="converter-container">
+            <h2>Temperature Converter</h2>
+            <div class="input-container">
+                <label for="temperature">Enter Temperature (°F):</label>
+                <input type="text" id="temperature" placeholder="Please enter temperature...">
+                <button id="convertButton">Convert</button>
+            </div>
+            <div id="resultContainer"></div>
+        </div>
+    </div>
+
+    <div class="footer text-center py-3">
+        <span id="currentDate"></span> | © 2024 Babalola Awe
+    </div>
+    <script src="script.js"></script> 
+</body>
+
+</html>
